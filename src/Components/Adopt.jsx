@@ -10,7 +10,7 @@ function Adopt() {
         <div className="mob"></div>
         <div className="grid-box grid1">
           <img src="./Assets/owner.png" alt="" />
-          <h1>IDENTIFY AAPI SPONSER</h1>
+          <h1>IDENTIFY AAPI SPONSOR</h1>
         </div>
         <div className="wrapper">
           <div className="circle-grid"></div>
