@@ -593,7 +593,7 @@ header {
 .modal img {
   height: max(60vh, 500px);
   width: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 .modal .splide .splide__pagination {
   bottom: -10% !important;
@@ -641,7 +641,7 @@ header {
   }
   .modal img {
     height: 400px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .close {
     top: -10%;
