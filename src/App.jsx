@@ -4,7 +4,8 @@ import Roadmap from "./Components/Roadmap";
 import Card from "./Components/Card";
 import { data } from "./data";
 import { useState } from "react";
-
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import Modal from "./Components/Modal";
 function App() {
   const [gallery, setGallery] = useState(false);
@@ -18,10 +19,10 @@ function App() {
             <img src="./Assets/logo.png" alt="" />
           </div>
           <div className="nav-links">
-            <a href="#">Phases</a>
-            <a href="#">Adopt</a>
-            <a href="#">Roadmap</a>
-            <a href="#">Reports</a>
+            <a href="#phases">Phases</a>
+            <a href="#adopt">Adopt</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#reports">Reports</a>
           </div>
           <div className="logo-box">
             <img src="./Assets/logo2.png" alt="" />
@@ -30,6 +31,52 @@ function App() {
         <div className="top-wrap">
           <div className="right-top">
             <h1>AMERICAN ASSOCIATION OF PHYSICIANS OF INDIAN ORIGIN</h1>
+            <Splide
+              options={{
+                pagination: false,
+                arrows: false,
+                width: "100%",
+                rewind: true,
+                perPage: 1,
+                perMove: 1,
+                autoplay: true,
+                interval: 2000,
+                pauseOnHover: false,
+                drag: true,
+                pauseOnFocus: false,
+              }}
+              className="profile-slider"
+            >
+              <SplideSlide>
+                <div className="profile-card">
+                  <img src="/Assets/profile1.jpeg" alt="" />
+                  <h2>Dr. Anupama Gotimukula</h2>
+                  <p>
+                    AAPI PRESIDENT <br /> 2021-2022
+                  </p>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                {" "}
+                <div className="profile-card">
+                  <img src="/Assets/profile2.png" alt="" />
+                  <h2>Dr. Ravi Kolli</h2>
+                  <p>
+                    AAPI PRESIDENT <br /> 2022-2023
+                  </p>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                {" "}
+                <div className="profile-card">
+                  <img src="/Assets/profile3.jpeg" alt="" />
+                  <h2>Dr.Satish Kathula</h2>
+                  <p>
+                    Chair, Adopt a Village <br /> Program
+                  </p>
+                </div>
+              </SplideSlide>
+            </Splide>
             <div className="row">
               <div className="profile-card">
                 <img src="/Assets/profile1.jpeg" alt="" />
@@ -44,7 +91,7 @@ function App() {
                 <p>
                   AAPI PRESIDENT <br /> 2022-2023
                 </p>
-              </div>
+              </div>{" "}
               <div className="profile-card">
                 <img src="/Assets/profile3.jpeg" alt="" />
                 <h2>Dr.Satish Kathula</h2>
@@ -129,7 +176,7 @@ function App() {
             <p>Total Patients screened:{">"}6000</p>
           </div>
         </div>
-        <div className="phases-wrapper">
+        <div id="phases" className="phases-wrapper">
           <h2>Phases</h2>
           <div className="phases">
             <div className="objective">
@@ -153,7 +200,7 @@ function App() {
         </div>
         <Adopt />
         <Roadmap />
-        <div className="reports">
+        <div id="reports" className="reports">
           <h1 className="title">PHASE 1 RESULTS AND REPORTS</h1>
           {gallery && <Modal setHeader={setGallery} images={images} />}
           <div className="btn-div">
@@ -323,7 +370,7 @@ function App() {
                 >
                   NUTRITION
                 </span>
-                : Plant based whole food whole grain diet
+                Plant based whole food whole grain diet
               </p>
             </li>
 
@@ -339,7 +386,7 @@ function App() {
                 >
                   ADDICTIONS
                 </span>
-                : Avoid smoking, alcohol, illegal drugs and other addictions{" "}
+                Avoid smoking, alcohol, illegal drugs and other addictions{" "}
               </p>
             </li>
 
@@ -355,7 +402,7 @@ function App() {
                 >
                   EXERCISE
                 </span>{" "}
-                :YOGA AND WALKING
+                YOGA AND WALKING
               </p>
             </li>
 
@@ -372,7 +419,7 @@ function App() {
                 >
                   STRESS MANAGEMENT
                 </span>{" "}
-                : Heartfulness meditation{" "}
+                Heartfulness meditation{" "}
               </p>
             </li>
 
@@ -389,7 +436,7 @@ function App() {
                 >
                   SLEEP
                 </span>{" "}
-                : Sleep Hygiene{" "}
+                Sleep Hygiene{" "}
               </p>
             </li>
 

@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 function Adopt() {
   return (
-    <div id="roadmap" className="roadmap">
+    <div id="adopt" className="roadmap">
       <h1 className="title">Adopt a Village</h1>
       <div className="roadmap-grid">
         <Splide
@@ -55,11 +55,16 @@ function Adopt() {
             <div className="grid-box grid1">
               <img src="./Assets/tool.webp" alt="" />
               <h1>Screening of health conditions</h1>
-              <p>
-                PARAMETERS SCREENED: HEMOGLOBIN,LIPID
-                PROFILE,CREATININE,HEMOGLOBIN A1C, HEIGHT,WEIGHT,BMI,BLOOD
-                PRESSURE, TEMPERATURE,PULSE,PULSE OXIMETRY,,BLOOD SUGAR
-              </p>
+              <ul>
+                <li>
+                  Vitals: Blood Pressure, Pulse, Pulse Oximetry, Height, Weight,
+                  BMI
+                </li>
+                <li>
+                  Labs: Hemoglobin, Blood Sugar, HBA1C, Creatinine, Lipid
+                  Profile
+                </li>
+              </ul>
             </div>
           </SplideSlide>
           <SplideSlide>
@@ -67,9 +72,9 @@ function Adopt() {
               <img src="./Assets/ana.svg" alt="" />
               <h1>analyse data and provide virtual primary care</h1>
               <p>
-                Data will help us identify health conditions, global teleclinics
-                to provide In person/ virtual primary care support to positive
-                patients with disease.
+                Data will help us identify health conditions and Global
+                Teleclinics will provide in person and virtual primary care for
+                patients with disease
               </p>
             </div>
           </SplideSlide>

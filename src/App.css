@@ -28,6 +28,7 @@
   gap: 30px;
 }
 .nav-links a {
+  font-weight: bold;
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -68,6 +69,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 .right-top .row {
   display: flex;
@@ -313,7 +315,17 @@
   width: 300px !important;
   height: 300px;
 }
-
+.profile-slider {
+  display: none;
+}
+.br {
+  display: none;
+}
+.list-box span {
+  display: block !important;
+  margin-bottom: 10px;
+  font-size: 23px !important;
+}
 @media screen and (max-width: 1107px) {
   .right-top h1 {
     font-size: 20px;
@@ -328,6 +340,20 @@
 }
 @media screen and (max-width: 993px) {
   .right::before {
+    display: none;
+  }
+  .profile-slider {
+    display: initial;
+  }
+  .profile-slider li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .br {
+    display: block;
+  }
+  .top-wrap .row {
     display: none;
   }
   .down:after,
@@ -601,21 +627,21 @@ header {
 }
 .card-btn a:hover {
   background-color: transparent;
-  border-color: #347a9a;
+  border-color: var(--blue);
   color: black;
 }
 .card-btn button:hover {
   color: white;
-  background-color: #347a9a;
+  background-color: var(--blue);
 }
 .card-btn a {
-  background-color: #347a9a;
+  background-color: var(--blue);
   color: white;
 }
 .card-btn button {
   background-color: transparent;
   color: black;
-  border-color: #347a9a;
+  border-color: var(--blue);
 }
 .overlay {
   position: fixed;

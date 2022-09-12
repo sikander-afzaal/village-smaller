@@ -2,7 +2,7 @@ import React from "react";
 import "./Roadmap.css";
 function Roadmap() {
   return (
-    <div className="road2">
+    <div id="roadmap" className="road2">
       <h1 className="title">Roadmap</h1>
       <div className="row-road">
         <div className="row-card">
