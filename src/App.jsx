@@ -12,10 +12,21 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="top-wrap">
-          <div style={{ alignSelf: "flex-start" }} className="logo-box">
+        <div className="navbar">
+          <div className="logo-box">
             <img src="./Assets/logo.png" alt="" />
           </div>
+          <div className="nav-links">
+            <a href="#">Phases</a>
+            <a href="#">Adopt</a>
+            <a href="#">Roadmap</a>
+            <a href="#">Reports</a>
+          </div>
+          <div className="logo-box">
+            <img src="./Assets/logo2.png" alt="" />
+          </div>
+        </div>
+        <div className="top-wrap">
           <div className="right-top">
             <h1>AMERICAN ASSOCIATION OF PHYSICIANS OF INDIAN ORIGIN</h1>
             <div className="row">
@@ -55,21 +66,23 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="logo-box" style={{ alignSelf: "flex-end" }}>
-            <img src="./Assets/logo2.png" alt="" />
-          </div>
         </div>
         <div className="hero">
-          <h1>AAPI ADOPT A VILLAGE PROJECT</h1>
-          <h3>DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM) </h3>
-          <img
-            style={{ borderRadius: "20px" }}
-            src="./Assets/hands.webp"
-            alt=""
-          />
-          <p style={{ fontWeight: "bold", color: "black" }}>
-            BRING LIGHT THROUGH HEALING HANDS{" "}
-          </p>
+          <div className="left-hero">
+            <h1>AAPI ADOPT A VILLAGE PROJECT</h1>
+            <h3>
+              DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM){" "}
+            </h3>
+            <img
+              style={{ borderRadius: "20px" }}
+              src="./Assets/hands.webp"
+              alt=""
+            />
+            <p style={{ fontWeight: "bold", color: "black" }}>
+              BRING LIGHT THROUGH HEALING HANDS{" "}
+            </p>
+          </div>
+
           <div className="quote">
             <h4>
               Ask not what your country can do for you. ask what you can do for
