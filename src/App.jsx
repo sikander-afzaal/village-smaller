@@ -122,7 +122,12 @@ function App() {
               DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM){" "}
             </h3>
             <img
-              style={{ borderRadius: "20px" }}
+              style={{
+                borderRadius: "20px",
+                width: "80%",
+                objectFit: "cover",
+                height: "300px",
+              }}
               src="./Assets/hands.webp"
               alt=""
             />
