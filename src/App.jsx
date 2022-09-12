@@ -4,6 +4,7 @@ import Roadmap from "./Components/Roadmap";
 import Card from "./Components/Card";
 import { data } from "./data";
 import { useState } from "react";
+
 import Modal from "./Components/Modal";
 function App() {
   const [gallery, setGallery] = useState(false);
