@@ -5,7 +5,7 @@ export const data = {
       name: "Parlapally",
       pdf: "/Assets/telenaga/parlapally/pdf.pdf",
       profileImg: "/Assets/telenaga/parlapally/profile.webp",
-      profileName: "Dr.Anupama",
+      profileName: "Dr.Anupama Gotimukula",
       images: [
         "./Assets/telenaga/parlapally/img (1).webp",
         "./Assets/telenaga/parlapally/img (2).webp",
@@ -440,15 +440,15 @@ export const data = {
     },
     {
       name: "Obulareddypalli",
-      pdf: "./Assets/andhra/Obulareddypalli/pdf.pdf",
+      pdf: "./Assets/andhra/Obulareddypally/pdf.pdf",
       profileImg: "/Assets/andhra/Obulareddypally/profile.webp",
       profileName: "Dr. Krishna Reddy Aruna Reddy",
       images: [
-        "./Assets/andhra/Obulareddypalli/img (1).webp",
-        "./Assets/andhra/Obulareddypalli/img (2).webp",
-        "./Assets/andhra/Obulareddypalli/img (3).webp",
-        "./Assets/andhra/Obulareddypalli/img (4).webp",
-        "./Assets/andhra/Obulareddypalli/img (5).webp",
+        "./Assets/andhra/Obulareddypally/img (1).webp",
+        "./Assets/andhra/Obulareddypally/img (2).webp",
+        "./Assets/andhra/Obulareddypally/img (3).webp",
+        "./Assets/andhra/Obulareddypally/img (4).webp",
+        "./Assets/andhra/Obulareddypally/img (5).webp",
       ],
     },
     {
@@ -492,14 +492,14 @@ export const data = {
     },
     {
       name: "Rajanalapalli",
-      pdf: "./Assets/andhra/Rajanalapalli/pdf.pdf",
+      pdf: "./Assets/andhra/Rajanalapally/pdf.pdf",
       profileImg: "/Assets/andhra/Obulareddypally/profile.webp",
       profileName: "Dr. Krishna Reddy Aruna Reddy",
       images: [
-        "./Assets/andhra/Rajanalapalli/img (1).webp",
-        "./Assets/andhra/Rajanalapalli/img (2).webp",
-        "./Assets/andhra/Rajanalapalli/img (3).webp",
-        "./Assets/andhra/Rajanalapalli/img (4).webp",
+        "./Assets/andhra/Rajanalapally/img (1).webp",
+        "./Assets/andhra/Rajanalapally/img (2).webp",
+        "./Assets/andhra/Rajanalapally/img (3).webp",
+        "./Assets/andhra/Rajanalapally/img (4).webp",
       ],
     },
     {
@@ -517,15 +517,15 @@ export const data = {
     },
     {
       name: "Kothapalli",
-      pdf: "./Assets/andhra/kothapalli/pdf.pdf",
+      pdf: "./Assets/andhra/kothapally/pdf.pdf",
       profileImg: "/Assets/andhra/Obulareddypally/profile.webp",
       profileName: "Dr. Krishna Reddy Aruna Reddy",
       images: [
-        "./Assets/andhra/kothapalli/img (1).webp",
-        "./Assets/andhra/kothapalli/img (2).webp",
-        "./Assets/andhra/kothapalli/img (3).webp",
-        "./Assets/andhra/kothapalli/img (4).webp",
-        "./Assets/andhra/kothapalli/img (5).webp",
+        "./Assets/andhra/kothapally/img (1).webp",
+        "./Assets/andhra/kothapally/img (2).webp",
+        "./Assets/andhra/kothapally/img (3).webp",
+        "./Assets/andhra/kothapally/img (4).webp",
+        "./Assets/andhra/kothapally/img (5).webp",
       ],
     },
     {

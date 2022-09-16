@@ -70,7 +70,7 @@ function App() {
                 {" "}
                 <div className="profile-card">
                   <img src="/Assets/profile3.jpeg" alt="" />
-                  <h2>Dr.Satish Kathula</h2>
+                  <h2>Dr.Satheesh Kathula</h2>
                   <p>
                     Chair, Adopt a Village <br /> Program
                   </p>
@@ -94,7 +94,7 @@ function App() {
               </div>{" "}
               <div className="profile-card">
                 <img src="/Assets/profile3.jpeg" alt="" />
-                <h2>Dr.Satish Kathula</h2>
+                <h2>Dr.Satheesh Kathula</h2>
                 <p>
                   Chair, Adopt a Village <br /> Program
                 </p>
@@ -177,7 +177,7 @@ function App() {
           </div>
           <div className="objective">
             <h1>Progress so Far:</h1>
-            <p>Screened number of villages:49 </p>
+            <p>Screened number of villages:46 </p>
             <p>Total Patients screened:{">"}6000</p>
           </div>
         </div>

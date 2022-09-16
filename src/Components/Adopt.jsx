@@ -41,7 +41,7 @@ function Adopt() {
           </SplideSlide>
           <SplideSlide>
             <div className="grid-box grid1">
-              <img src="./Assets/doctor.png" alt="" />
+              <img src="./Assets/find.svg" alt="" />
               <h1>Identify village champion</h1>
             </div>
           </SplideSlide>
