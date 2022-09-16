@@ -30,7 +30,7 @@ export const data = {
       name: "Saloora",
       pdf: "/Assets/telenaga/saloora/pdf.pdf",
       profileImg: "/Assets/telenaga/saloora/profile.webp",
-      profileName: "Dr Ravinder Reddy Kandula",
+      profileName: "Dr. Ravinder Reddy Kandula",
       images: [
         "./Assets/telenaga/saloora/img (1).webp",
         "./Assets/telenaga/saloora/img (2).webp",
@@ -43,7 +43,7 @@ export const data = {
       name: "Peddapuram",
       pdf: "/Assets/telenaga/Peddapur/pdf.pdf",
       profileImg: "/Assets/telenaga/Peddapur/profile.webp",
-      profileName: "Dr Geeta Reddy Lekkala",
+      profileName: "Dr. Geeta Reddy Lekkala",
       images: [
         "./Assets/telenaga/Peddapur/img (1).webp",
         "./Assets/telenaga/Peddapur/img (2).webp",
@@ -56,7 +56,7 @@ export const data = {
       name: "Bairanpally",
       pdf: "/Assets/telenaga/Bairanpally/pdf.pdf",
       profileImg: "/Assets/telenaga/Bairanpally/profile.webp",
-      profileName: "Dr Sunita Reddy",
+      profileName: "Dr. Sunita Reddy",
       images: [
         "./Assets/telenaga/Bairanpally/img (1).webp",
         "./Assets/telenaga/Bairanpally/img (2).webp",
@@ -69,7 +69,7 @@ export const data = {
       name: "Birkoor",
       pdf: "/Assets/telenaga/Birkoor/pdf.pdf",
       profileImg: "/Assets/telenaga/Birkoor/profile.webp",
-      profileName: "Dr Sunil Kaza",
+      profileName: "Dr. Sunil Kaza",
       images: [
         "./Assets/telenaga/Birkoor/img (1).webp",
         "./Assets/telenaga/Birkoor/img (2).webp",
@@ -108,7 +108,7 @@ export const data = {
       name: "Mulkanoor",
       pdf: "/Assets/telenaga/Mulkanoor/pdf.pdf",
       profileImg: "/Assets/telenaga/Mulkanoor/profile.webp",
-      profileName: "Dr Hyma kandhula",
+      profileName: "Dr. Hyma kandhula",
       images: [
         "./Assets/telenaga/Mulkanoor/img (1).webp",
         "./Assets/telenaga/Mulkanoor/img (2).webp",
@@ -134,7 +134,7 @@ export const data = {
       name: "Tiryani",
       pdf: "/Assets/telenaga/Tiryani/pdf.pdf",
       profileImg: "/Assets/telenaga/Tiryani/profile.webp",
-      profileName: "Dr Uma Eleti",
+      profileName: "Dr. Uma Eleti",
       images: [
         "./Assets/telenaga/Tiryani/img (1).webp",
         "./Assets/telenaga/Tiryani/img (2).webp",
@@ -147,7 +147,7 @@ export const data = {
       name: "Ramaipally",
       pdf: "/Assets/telenaga/Ramaipally/pdf.pdf",
       profileImg: "/Assets/telenaga/Ramaipally/profile.webp",
-      profileName: "Dr Satheesh Kathula",
+      profileName: "Dr. Satheesh Kathula",
       images: [
         "./Assets/telenaga/Ramaipally/img (1).webp",
         "./Assets/telenaga/Ramaipally/img (2).webp",
@@ -186,7 +186,7 @@ export const data = {
       name: "Khakhrechi",
       pdf: "/Assets/gujrat/Khakhrechi/pdf.pdf",
       profileImg: "/Assets/gujrat/Khakhrechi/profile.webp",
-      profileName: "Dr Yagnesh Raval",
+      profileName: "Dr. Yagnesh Raval",
       images: [
         "./Assets/gujrat/Khakhrechi/img (1).webp",
         "./Assets/gujrat/Khakhrechi/img (2).webp",
@@ -212,7 +212,7 @@ export const data = {
       name: "Sanjanasar",
       pdf: "/Assets/gujrat/Sanjanasar/pdf.pdf",
       profileImg: "/Assets/gujrat/Sanjanasar/profile.webp",
-      profileName: "Dr Ramesh R karia",
+      profileName: "Dr. Ramesh R karia",
       images: [
         "./Assets/gujrat/Sanjanasar/img (1).webp",
         "./Assets/gujrat/Sanjanasar/img (2).webp",
@@ -225,7 +225,7 @@ export const data = {
       name: "Jambughoda",
       pdf: "/Assets/gujrat/Jambughoda/pdf.pdf",
       profileImg: "/Assets/gujrat/Jambughoda/profile.webp",
-      profileName: "Dr Jayesh Shah",
+      profileName: "Dr. Jayesh Shah",
       images: [
         "./Assets/gujrat/Jambughoda/img (1).webp",
         "./Assets/gujrat/Jambughoda/img (2).webp",
@@ -238,7 +238,7 @@ export const data = {
       name: "Bilimora",
       pdf: "/Assets/gujrat/Bilimora/pdf.pdf",
       profileImg: "/Assets/gujrat/Bilimora/profile.webp",
-      profileName: "Dr Sumul Raval",
+      profileName: "Dr. Sumul Raval",
       images: [
         "./Assets/gujrat/Bilimora/img (1).webp",
         "./Assets/gujrat/Bilimora/img (2).webp",
@@ -251,7 +251,7 @@ export const data = {
       name: "Hansot",
       pdf: "/Assets/gujrat/Hansot/pdf.pdf",
       profileImg: "/Assets/gujrat/Hansot/profile.webp",
-      profileName: "Dr Nirav Parik",
+      profileName: "Dr. Nirav Parik",
       images: [
         "./Assets/gujrat/Hansot/img (1).webp",
         "./Assets/gujrat/Hansot/img (2).webp",
@@ -264,7 +264,7 @@ export const data = {
       name: "Ambaliyara",
       pdf: "/Assets/gujrat/Ambaliyara/pdf.pdf",
       profileImg: "/Assets/gujrat/Ambaliyara/profile.webp",
-      profileName: "Dr Prakash Patel",
+      profileName: "Dr. Prakash Patel",
       images: [
         "./Assets/gujrat/Ambaliyara/img (1).webp",
         "./Assets/gujrat/Ambaliyara/img (2).webp",
@@ -364,7 +364,7 @@ export const data = {
       name: "Alikam",
       pdf: "./Assets/andhra/alikam/pdf.pdf",
       profileImg: "/Assets/andhra/alikam/profile.webp",
-      profileName: "Dr Jagan Kakarala",
+      profileName: "Dr. Jagan Kakarala",
       images: [
         "./Assets/andhra/alikam/img (1).webp",
         "./Assets/andhra/alikam/img (2).webp",
@@ -403,7 +403,7 @@ export const data = {
       name: "Kundalapally",
       pdf: "./Assets/andhra/Kundalapally/img (19).webp",
       profileImg: "/Assets/andhra/Kundalapally/profile.webp",
-      profileName: "Dr Radhika Akella",
+      profileName: "Dr. Radhika Akella",
       images: [
         "./Assets/andhra/Kundalapally/img (1).webp",
         "./Assets/andhra/Kundalapally/img (2).webp",
@@ -468,7 +468,7 @@ export const data = {
       name: "Pappulavaripalem",
       pdf: "./Assets/andhra/Pappula Vari/pdf.pdf",
       profileImg: "/Assets/andhra/Pappula Vari/profile.webp",
-      profileName: "Dr Radha Ramana Murthy",
+      profileName: "Dr. Radha Ramana Murthy",
       images: [
         "./Assets/andhra/Pappula Vari/img (1).webp",
         "./Assets/andhra/Pappula Vari/img (2).webp",
@@ -547,7 +547,7 @@ export const data = {
       name: "Guluru2",
       pdf: "/Assets/telenaga/Guluru2/pdf.pdf",
       profileImg: "/Assets/karnataka/Guluru2/profile.webp",
-      profileName: "Dr Bhaskar Purushottam",
+      profileName: "Dr. Bhaskar Purushottam",
       images: [
         "./Assets/karnataka/Guluru2/img (1).webp",
         "./Assets/karnataka/Guluru2/img (2).webp",
@@ -559,7 +559,7 @@ export const data = {
       name: "Humchadakatte",
       pdf: "/Assets/telenaga/humchadakatte/pdf.pdf",
       profileImg: "/Assets/karnataka/humchadakatte/profile.webp",
-      profileName: "Dr Manjunath Shikaripur",
+      profileName: "Dr. Manjunath Shikaripur",
       images: [
         "./Assets/karnataka/humchadakatte/img (1).webp",
         "./Assets/karnataka/humchadakatte/img (2).webp",
@@ -572,7 +572,7 @@ export const data = {
       name: "Guluru",
       pdf: "/Assets/telenaga/Guluru/pdf.pdf",
       profileImg: "/Assets/karnataka/Guluru/profile.webp",
-      profileName: "Dr Anuradha Maan",
+      profileName: "Dr. Anuradha Maan",
       images: [
         "./Assets/karnataka/Guluru/img (1).webp",
         "./Assets/karnataka/Guluru/img (2).webp",
