@@ -343,7 +343,7 @@ function App() {
             </li>
 
             <li className="list-box">
-              {" "}
+              <img src="./Assets/nutri.webp" alt="" />
               <p>
                 <span
                   style={{
@@ -359,7 +359,7 @@ function App() {
             </li>
 
             <li className="list-box">
-              {" "}
+              <img src="./Assets/add.jpg" alt="" />
               <p>
                 <span
                   style={{
@@ -376,7 +376,7 @@ function App() {
 
             <li className="list-box">
               <p>
-                {" "}
+                <img src="./Assets/exer.jpg" alt="" />
                 <span
                   style={{
                     fontWeight: "bold",
@@ -391,7 +391,7 @@ function App() {
             </li>
 
             <li className="list-box">
-              {" "}
+              <img src="./Assets/stress.jpg" alt="" />
               <p>
                 {" "}
                 <span
@@ -408,7 +408,7 @@ function App() {
             </li>
 
             <li className="list-box">
-              {" "}
+              <img src="./Assets/sleep.jpg" alt="" />
               <p>
                 {" "}
                 <span
@@ -425,7 +425,7 @@ function App() {
             </li>
 
             <li className="list-box">
-              {" "}
+              <img src="./Assets/love.jpg" alt="" />
               <span
                 style={{
                   fontWeight: "bold",
