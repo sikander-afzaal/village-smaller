@@ -30,7 +30,6 @@ function App() {
         </div>
         <div className="top-wrap">
           <div className="right-top">
-            <h1>AMERICAN ASSOCIATION OF PHYSICIANS OF INDIAN ORIGIN</h1>
             <Splide
               options={{
                 pagination: false,
@@ -39,120 +38,94 @@ function App() {
                 rewind: true,
                 perPage: 1,
                 perMove: 1,
-                autoplay: true,
+                // autoplay: true,
                 interval: 2000,
                 pauseOnHover: false,
                 drag: true,
                 pauseOnFocus: false,
               }}
-              className="profile-slider"
             >
               <SplideSlide>
-                <div className="profile-card">
-                  <img src="/Assets/profile1.jpeg" alt="" />
-                  <h2>Dr. Anupama Gotimukula</h2>
-                  <p>
-                    AAPI PRESIDENT <br /> 2021-2022
-                  </p>
+                <div className="slide-box box1">
+                  <h1>AMERICAN ASSOCIATION OF PHYSICIANS OF INDIAN ORIGIN</h1>
+                  <div className="row">
+                    <div className="profile-card">
+                      <img src="/Assets/profile1.jpeg" alt="" />
+                      <h2>Dr. Anupama Gotimukula</h2>
+                      <p>
+                        AAPI PRESIDENT <br /> 2021-2022
+                      </p>
+                    </div>
+                    <div className="profile-card">
+                      <img src="/Assets/profile2.png" alt="" />
+                      <h2>Dr. Ravi Kolli</h2>
+                      <p>
+                        AAPI PRESIDENT <br /> 2022-2023
+                      </p>
+                    </div>{" "}
+                    <div className="profile-card">
+                      <img src="/Assets/profile3.jpeg" alt="" />
+                      <h2>Dr.Satheesh Kathula</h2>
+                      <p>
+                        Chair, Adopt a Village <br /> Program
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </SplideSlide>
               <SplideSlide>
-                {" "}
-                <div className="profile-card">
-                  <img src="/Assets/profile2.png" alt="" />
-                  <h2>Dr. Ravi Kolli</h2>
-                  <p>
-                    AAPI PRESIDENT <br /> 2022-2023
-                  </p>
+                <div className="slide-box box1">
+                  <h2>In partnership with Global Teleclinics (GTC)</h2>
+                  <div className="profile-row">
+                    <div className="profile-card">
+                      <img className="gokula" src="/Assets/gokula.jpg" alt="" />
+                      <h2>Dr. Murthy Gokula</h2>
+                      <p>Founder & Director GTC</p>
+                    </div>
+                    <div className="profile-card">
+                      <img className="gokula" src="/Assets/gunu.jpeg" alt="" />
+                      <h2>Gunukula Laxma Reddy</h2>
+                      <p>Director-Field Operations GTC</p>
+                    </div>
+                  </div>
                 </div>
               </SplideSlide>
               <SplideSlide>
-                {" "}
-                <div className="profile-card">
-                  <img src="/Assets/profile3.jpeg" alt="" />
-                  <h2>Dr.Satheesh Kathula</h2>
-                  <p>
-                    Chair, Adopt a Village <br /> Program
-                  </p>
+                <div className="slide-box box1">
+                  <h1 className="slide-h1">AAPI ADOPT A VILLAGE PROJECT</h1>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="slide-box box2">
+                  <h3>
+                    DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM){" "}
+                  </h3>{" "}
+                  <h4>BRING LIGHT THROUGH HEALING HANDS </h4>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="quote box1">
+                  <h4>
+                    Ask not what your country can do for you. ask what you can
+                    do for your country. <br /> Join us to Adopt a village and
+                    contribute to the change
+                  </h4>
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href="https://aapiusa.org/adopt-a-village/"
+                    target={"blank"}
+                  >
+                    <button className="donate">Donate Now</button>
+                  </a>
                 </div>
               </SplideSlide>
             </Splide>
-            <div className="row">
-              <div className="profile-card">
-                <img src="/Assets/profile1.jpeg" alt="" />
-                <h2>Dr. Anupama Gotimukula</h2>
-                <p>
-                  AAPI PRESIDENT <br /> 2021-2022
-                </p>
-              </div>
-              <div className="profile-card">
-                <img src="/Assets/profile2.png" alt="" />
-                <h2>Dr. Ravi Kolli</h2>
-                <p>
-                  AAPI PRESIDENT <br /> 2022-2023
-                </p>
-              </div>{" "}
-              <div className="profile-card">
-                <img src="/Assets/profile3.jpeg" alt="" />
-                <h2>Dr.Satheesh Kathula</h2>
-                <p>
-                  Chair, Adopt a Village <br /> Program
-                </p>
-              </div>
-            </div>
-            <h2>In partnership with Global Teleclinics (GTC)</h2>
-            <div className="profile-row">
-              <div className="profile-card">
-                <img className="gokula" src="/Assets/gokula.jpg" alt="" />
-                <h2>Dr. Murthy Gokula</h2>
-                <p>Founder & Director GTC</p>
-              </div>
-              <div className="profile-card">
-                <img className="gokula" src="/Assets/gunu.jpeg" alt="" />
-                <h2>Gunukula Laxma Reddy</h2>
-                <p>Director-Field Operations GTC</p>
-              </div>
-            </div>
           </div>
         </div>
-        <div className="hero">
-          <div className="left-hero">
-            <h1>AAPI ADOPT A VILLAGE PROJECT</h1>
-            <h3>
-              DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM){" "}
-            </h3>
-            <img
-              style={{
-                borderRadius: "20px",
-                width: "80%",
-                objectFit: "cover",
-                height: "300px",
-              }}
-              src="./Assets/hands.webp"
-              alt=""
-            />
-            <p style={{ fontWeight: "bold", color: "black" }}>
-              BRING LIGHT THROUGH HEALING HANDS{" "}
-            </p>
-          </div>
-
-          <div className="quote">
-            <h4>
-              Ask not what your country can do for you. ask what you can do for
-              your country. <br /> Join us to Adopt a village and contribute to
-              the change
-            </h4>
-            <a
-              style={{ textDecoration: "none" }}
-              href="https://aapiusa.org/adopt-a-village/"
-              target={"blank"}
-            >
-              <button className="donate">Donate Now</button>
-            </a>
-          </div>
-        </div>
+        <div className="hero"></div>
         <div className="objectives">
           <div className="objective">
+            <img src="./Assets/mission.jpg" alt="" />
             <h1>Mission:</h1>
             <p>
               To bring Non-Communicable Diseases (NCDs) screening and prevention
@@ -160,6 +133,8 @@ function App() {
             </p>
           </div>
           <div className="objective">
+            {" "}
+            <img src="./Assets/vision.png" alt="" />
             <h1>Vision:</h1>
             <p>
               Raise awareness of disease management and reversal of
@@ -168,6 +143,8 @@ function App() {
             </p>
           </div>
           <div className="objective">
+            {" "}
+            <img src="./Assets/goal.jpg" alt="" />
             <h1>Goal:</h1>
             <p>
               Screen 75 villages for; Hypertension, Diabetes, Anemia, Chronic
@@ -176,6 +153,8 @@ function App() {
             </p>
           </div>
           <div className="objective">
+            {" "}
+            <img src="./Assets/progress.jpg" alt="" />
             <h1>Progress so Far:</h1>
             <p>Screened number of villages:46 </p>
             <p>Total Patients screened:{">"}6000</p>

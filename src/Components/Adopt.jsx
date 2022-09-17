@@ -13,7 +13,8 @@ function Adopt() {
             arrows: false,
             width: "100%",
             type: "loop",
-            perPage: 2,
+            gap: "2rem",
+            perPage: 3,
             perMove: 1,
             autoplay: true,
             interval: 2000,
@@ -21,6 +22,9 @@ function Adopt() {
             drag: true,
             pauseOnFocus: false,
             breakpoints: {
+              1109: {
+                perPage: 2,
+              },
               900: {
                 perPage: 1,
               },

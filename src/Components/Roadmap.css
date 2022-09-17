@@ -22,7 +22,7 @@
   flex-direction: column;
   padding: 25px;
   width: 100%;
-  height: 600px;
+  height: 100%;
   box-shadow: 0px 0px 20px 0px rgba(52, 122, 154, 0.5);
   background-color: white;
   border: 2px solid var(--blue);
@@ -30,17 +30,18 @@
   gap: 10px;
 }
 .row-card img {
-  width: 100%;
-  max-width: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
   margin: 10px 0px;
 }
 .row-card h1 {
+  font-size: 23px;
   text-transform: uppercase;
 }
 .row-card p {
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 1273px) {
