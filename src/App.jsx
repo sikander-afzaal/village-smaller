@@ -38,7 +38,7 @@ function App() {
                 rewind: true,
                 perPage: 1,
                 perMove: 1,
-                // autoplay: true,
+                autoplay: true,
                 interval: 2000,
                 pauseOnHover: false,
                 drag: true,
