@@ -97,7 +97,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/bg1.jpg");
+    url("./Assets/box2.jpg");
 }
 .box2 {
   background-image: linear-gradient(
@@ -105,7 +105,42 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/hands.webp");
+    url("./Assets/box1.jpg");
+}
+.box4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("./Assets/hands.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("./Assets/box3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.box5 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("./Assets/donate-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -439,6 +474,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+  .logo-box {
+    justify-self: flex-start;
+  }
+  .right-nav {
+    gap: 0px;
+  }
+  .right-nav button {
+    width: 120px;
   }
   .nav-links {
     grid-column: 1/3;
@@ -460,6 +506,10 @@
   }
   .nav-links a {
     font-size: 16px;
+  }
+  .right-nav button {
+    font-size: 12px;
+    width: 95px;
   }
 }
 .reports {

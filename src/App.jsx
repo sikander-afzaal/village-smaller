@@ -24,8 +24,17 @@ function App() {
             <a href="#roadmap">Roadmap</a>
             <a href="#reports">Reports</a>
           </div>
-          <div className="logo-box">
-            <img src="./Assets/logo2.png" alt="" />
+          <div className="right-nav">
+            <div className="logo-box">
+              <img src="./Assets/logo2.png" alt="" />
+            </div>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://aapiusa.org/adopt-a-village/"
+              target={"blank"}
+            >
+              <button className="donate">Donate Now</button>
+            </a>
           </div>
         </div>
         <div className="top-wrap">
@@ -74,7 +83,7 @@ function App() {
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="slide-box box1">
+                <div className="slide-box box2">
                   <h2>In partnership with Global Teleclinics (GTC)</h2>
                   <div className="profile-row">
                     <div className="profile-card">
@@ -91,12 +100,12 @@ function App() {
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="slide-box box1">
+                <div className="slide-box box3">
                   <h1 className="slide-h1">AAPI ADOPT A VILLAGE PROJECT</h1>
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="slide-box box2">
+                <div className="slide-box box4">
                   <h3>
                     DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM){" "}
                   </h3>{" "}
@@ -104,7 +113,7 @@ function App() {
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="quote box1">
+                <div className="quote box5">
                   <h4>
                     Ask not what your country can do for you. ask what you can
                     do for your country. <br /> Join us to Adopt a village and
