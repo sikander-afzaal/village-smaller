@@ -15,6 +15,19 @@ export const data = {
       ],
     },
     {
+      name: "Rangammagudem",
+      pdf: "/Assets/telenaga/Rangammagudem/pdf.pdf",
+      profileImg: "/Assets/telenaga/Rangammagudem/profile.webp",
+      profileName: "Dr.Vijay Gunuganti",
+      images: [
+        "./Assets/telenaga/Rangammagudem/img (1).webp",
+        "./Assets/telenaga/Rangammagudem/img (2).webp",
+        "./Assets/telenaga/Rangammagudem/img (3).webp",
+        "./Assets/telenaga/Rangammagudem/img (4).webp",
+        "./Assets/telenaga/Rangammagudem/img (5).webp",
+      ],
+    },
+    {
       name: "Buddaram",
       pdf: "/Assets/telenaga/buddaram/pdf.pdf",
       profileImg: "/Assets/telenaga/buddaram/profile.webp",
