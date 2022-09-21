@@ -44,8 +44,7 @@ function App() {
               <a href="#phase1">Phase 1</a>
               <a href="#phase2">Phase 2</a>
               <a href="#phase3">Phase 3</a>
-              <a href="#clinic">Clinic</a>
-              <a href="#reports">Process</a>
+              <a href="#clinic">Clinic Process</a>
               <a href="#outcome">Outcomes</a>
             </div>
           </div>
