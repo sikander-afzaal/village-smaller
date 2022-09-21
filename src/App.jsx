@@ -59,25 +59,22 @@ function App() {
             <a onClick={() => setHeader(false)} href="#roadmap">
               Roadmap
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
+            <a onClick={() => setHeader(false)} href="#results">
               Results
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
+            <a onClick={() => setHeader(false)} href="#phase1">
               Phase 1
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
+            <a onClick={() => setHeader(false)} href="#phase2">
               Phase 2
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
+            <a onClick={() => setHeader(false)} href="#phase3">
               Phase 3
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
-              Clinic
+            <a onClick={() => setHeader(false)} href="#clinic">
+              Clinic Process
             </a>
-            <a onClick={() => setHeader(false)} href="#reports">
-              Process
-            </a>
-            <a onClick={() => setHeader(false)} href="#reports">
+            <a onClick={() => setHeader(false)} href="#outcome">
               Outcomes
             </a>
             <a
@@ -441,6 +438,7 @@ function App() {
         </div>
         <div id="phase3" className="list">
           <h1 className="title">Phase 3 Project</h1>
+          <p>Implement the six pillars of life style medicine in village</p>
           <ul>
             <li className="list-box">
               <img src="./Assets/nutri.webp" alt="" />
@@ -570,13 +568,6 @@ function App() {
             <li className="list-box"> NUMBER OF PATIENTS DISEASE MANAGED </li>
 
             <li className="list-box"> NUMBER OF PATIENTS DISEASES REVERSED </li>
-            <li className="list-box"> FOCUS ON SUSTAINABILITY </li>
-
-            <li className="list-box">
-              {" "}
-              CREATE A REVENUE MODEL BY CHARGING THE PATIENT THE SAME AMOUNT AS
-              THE LOCAL RMP DOCTOR CHARGES THE PATIENTS IN THE VILLAGE
-            </li>
           </ul>
         </div>
         <div className="list">
@@ -611,6 +602,13 @@ function App() {
               {" "}
               PROVIDE INCENTIVES WHEN PATIENTS SUCCEED IN DISEASE MANAGEMENT AND
               REVERSAL{" "}
+            </li>
+            <li className="list-box"> FOCUS ON SUSTAINABILITY </li>
+
+            <li className="list-box">
+              {" "}
+              CREATE A REVENUE MODEL BY CHARGING THE PATIENT THE SAME AMOUNT AS
+              THE LOCAL RMP DOCTOR CHARGES THE PATIENTS IN THE VILLAGE
             </li>
           </ul>
         </div>

@@ -52,7 +52,7 @@ function Adopt() {
           <SplideSlide>
             <div className="grid-box grid2">
               <img src="./Assets/working.png" alt="" />
-              <h1>Champions's work with global teleclinics</h1>
+              <h1>Champion work with global teleclinics</h1>
             </div>
           </SplideSlide>
           <SplideSlide>
