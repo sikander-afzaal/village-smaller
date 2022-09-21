@@ -97,7 +97,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/box2.jpg");
+    url("./box2.jpg");
 }
 .box2 {
   background-image: linear-gradient(
@@ -105,7 +105,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/box1.jpg");
+    url("./box1.jpg");
 }
 .box4 {
   background-image: linear-gradient(
@@ -113,7 +113,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/hands.jpg");
+    url("./hands.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -123,7 +123,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/box3.jpg");
+    url("./box3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -140,7 +140,7 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./Assets/donate-bg.jpg");
+    url("./donate-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
