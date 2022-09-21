@@ -3,26 +3,92 @@ import Adopt from "./Components/Adopt";
 import Roadmap from "./Components/Roadmap";
 import Card from "./Components/Card";
 import { data } from "./data";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Modal from "./Components/Modal";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
 function App() {
   const [gallery, setGallery] = useState(false);
   const [images, setImages] = useState([]);
   const [state, setState] = useState("");
+  const [header, setHeader] = useState(false);
+  useEffect(() => {
+    if (header) {
+      document.querySelector("body").style.overflowY = "hidden";
+    } else {
+      document.querySelector("body").style.overflowY = "scroll";
+    }
+  }, [header]);
+
   return (
     <div className="App">
       <div className="wrapper">
+        <h1 className="slide-h1">AAPI ADOPT A VILLAGE PROJECT</h1>
         <div className="navbar">
-          <div className="logo-box">
-            <img src="./Assets/logo.png" alt="" />
+          <div
+            onClick={() => setHeader(false)}
+            className={`overlay2 ${header ? "show-overlay" : ""}`}
+          ></div>
+          <div className="left-nav">
+            <div className="logo-box">
+              <img src="./Assets/logo.png" alt="" />
+            </div>
+            <GiHamburgerMenu onClick={() => setHeader(true)} />
+            <div className="nav-links desk-link">
+              <a href="#phases">Project</a>
+              <a href="#adopt">Process</a>
+              <a href="#roadmap">Roadmap</a>
+              <a href="#results">Results</a>
+              <a href="#phase1">Phase 1</a>
+              <a href="#phase2">Phase 2</a>
+              <a href="#phase3">Phase 3</a>
+              <a href="#clinic">Clinic</a>
+              <a href="#reports">Process</a>
+              <a href="#outcome">Outcomes</a>
+            </div>
           </div>
-          <div className="nav-links">
-            <a href="#phases">Phases</a>
-            <a href="#adopt">Adopt</a>
-            <a href="#roadmap">Roadmap</a>
-            <a href="#reports">Reports</a>
+          <div className={`nav-links mob-link ${header ? "open-nav" : ""}`}>
+            <AiOutlineClose onClick={() => setHeader(false)} />
+            <a onClick={() => setHeader(false)} href="#phases">
+              Project
+            </a>
+            <a onClick={() => setHeader(false)} href="#adopt">
+              Process
+            </a>
+            <a onClick={() => setHeader(false)} href="#roadmap">
+              Roadmap
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Results
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Phase 1
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Phase 2
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Phase 3
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Clinic
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Process
+            </a>
+            <a onClick={() => setHeader(false)} href="#reports">
+              Outcomes
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://aapiusa.org/adopt-a-village/"
+              target={"blank"}
+              className="donate-a"
+            >
+              <button className="donate">Donate Now</button>
+            </a>
           </div>
           <div className="right-nav">
             <div className="logo-box">
@@ -99,11 +165,7 @@ function App() {
                   </div>
                 </div>
               </SplideSlide>
-              <SplideSlide>
-                <div className="slide-box box3">
-                  <h1 className="slide-h1">AAPI ADOPT A VILLAGE PROJECT</h1>
-                </div>
-              </SplideSlide>
+
               <SplideSlide>
                 <div className="slide-box box4">
                   <h3>
@@ -169,7 +231,7 @@ function App() {
             <p>Total Patients screened:{">"}6000</p>
           </div>
         </div>
-        <div id="phases" className="phases-wrapper">
+        <div id="phase1" className="phases-wrapper">
           <h2>Phases</h2>
           <div className="phases">
             <div className="objective">
@@ -193,7 +255,7 @@ function App() {
         </div>
         <Adopt />
         <Roadmap />
-        <div id="reports" className="reports">
+        <div id="results" className="reports">
           <h1 className="title">PHASE 1 RESULTS AND REPORTS</h1>
           {gallery && <Modal setHeader={setGallery} images={images} />}
           <div className="btn-div">
@@ -277,39 +339,74 @@ function App() {
               })}
           </div>
         </div>
-        <div className="phase2">
-          <h1 className="title">Phase 2 of the Project</h1>
+        <div id="phase2" className="phase2">
+          <h1 className="title">Phase 2 of the Project</h1>{" "}
           <p style={{ fontWeight: "bold" }}>
             DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM)
           </p>
-          <div className="card-grid">
-            <h2 className="down right">
-              SCREENING DONE WITH LAB TESTS IN VILLAGE
-            </h2>
-            <h2 className="down right">
-              MD/MBBS DOCTOR WILL DO IN PERSON VISIT OF ALL PATIENTS IN THE
-              VILLAGE MONTHLY AND DOCUMENT IN EMR
-            </h2>
-            <h2 className="down">
-              PATIENT CAN CALL DIGITAL CLINIC DAILY EVENING (6-8 PM IST) FOR
-              MEDICAL ISSUES DURING THE 3 MONTH PILOT PROGRAM
-            </h2>
-            <h2 className="down">
-              POSITIVE PATIENTS FOR NON-COMMUNICABLE DISEASES WILL HAVE A CHART
-              IN EMR
-            </h2>
-            <h2 className="mob-down">
-              GTC-AAPI SAATHI WILL FOLLOW UP WEEKLY WITH THE PATIENT AND MONITOR
-              EFFECTIVENESS, COMPLIANCE, SIDE EFFECTS OF MEDICATIONS.
-            </h2>{" "}
-            <h2 className="mob-down">
-              MEDICATIONS AND HEALTH EDUCATION GIVEN TO PATIENT ON DISEASE AND
-              MEDICATIONS THROUGH SAATHI APP
-            </h2>
-            <h2>LABS WILL BE REPEATED IN 3 MONTHS</h2>
-          </div>
+          <Splide
+            options={{
+              pagination: false,
+              arrows: false,
+              width: "100%",
+              rewind: true,
+              perPage: 3,
+              gap: "30px",
+              perMove: 1,
+              autoplay: true,
+              interval: 2000,
+              pauseOnHover: false,
+              drag: true,
+              pauseOnFocus: false,
+              breakpoints: {
+                1002: {
+                  perPage: 2,
+                },
+                626: {
+                  perPage: 1,
+                },
+              },
+            }}
+          >
+            <SplideSlide>
+              <h2>SCREENING DONE WITH LAB TESTS IN VILLAGE</h2>
+            </SplideSlide>
+            <SplideSlide>
+              <h2>
+                MD/MBBS DOCTOR WILL DO IN PERSON VISIT OF ALL PATIENTS IN THE
+                VILLAGE MONTHLY AND DOCUMENT IN EMR
+              </h2>
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <h2>
+                PATIENT CAN CALL DIGITAL CLINIC DAILY EVENING (6-8 PM IST) FOR
+                MEDICAL ISSUES DURING THE 3 MONTH PILOT PROGRAM
+              </h2>
+            </SplideSlide>
+            <SplideSlide>
+              <h2>
+                POSITIVE PATIENTS FOR NON-COMMUNICABLE DISEASES WILL HAVE A
+                CHART IN EMR. LABS WILL BE REPEATED IN 3 MONTHS
+              </h2>
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <h2>
+                GTC-AAPI SAATHI WILL FOLLOW UP WEEKLY WITH THE PATIENT AND
+                MONITOR EFFECTIVENESS, COMPLIANCE, SIDE EFFECTS OF MEDICATIONS.
+              </h2>{" "}
+            </SplideSlide>
+            <SplideSlide>
+              {" "}
+              <h2>
+                MEDICATIONS AND HEALTH EDUCATION GIVEN TO PATIENT ON DISEASE AND
+                MEDICATIONS THROUGH SAATHI APP
+              </h2>
+            </SplideSlide>
+          </Splide>
         </div>
-        <div className="list">
+        <div id="clinic" className="list">
           <h1 className="title">AAPI-GTC DIPAM CLINIC PROCESS</h1>
           <ul>
             <li className="list-box">
@@ -343,14 +440,9 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="list">
+        <div id="phase3" className="list">
           <h1 className="title">Phase 3 Project</h1>
           <ul>
-            <li className="list-box">
-              {" "}
-              IMPLEMENT THE SIX PILLARS OF LIFE STYLE MEDICINE IN VILLAGE{" "}
-            </li>
-
             <li className="list-box">
               <img src="./Assets/nutri.webp" alt="" />
               <p>
@@ -445,17 +537,9 @@ function App() {
                 SOCIAL RELATIONSHIPS
               </span>{" "}
             </li>
-
-            <li className="list-box"> FOCUS ON SUSTAINABILITY </li>
-
-            <li className="list-box">
-              {" "}
-              CREATE A REVENUE MODEL BY CHARGING THE PATIENT THE SAME AMOUNT AS
-              THE LOCAL RMP DOCTOR CHARGES THE PATIENTS IN THE VILLAGE
-            </li>
           </ul>
         </div>
-        <div className="list">
+        <div id="outcome" className="list">
           <h1 className="title">OUTCOMES MEASURED </h1>
           <ul>
             <li className="list-box"> BASELINE POSITIVE PATIENTS </li>
@@ -487,6 +571,13 @@ function App() {
             <li className="list-box"> NUMBER OF PATIENTS DISEASE MANAGED </li>
 
             <li className="list-box"> NUMBER OF PATIENTS DISEASES REVERSED </li>
+            <li className="list-box"> FOCUS ON SUSTAINABILITY </li>
+
+            <li className="list-box">
+              {" "}
+              CREATE A REVENUE MODEL BY CHARGING THE PATIENT THE SAME AMOUNT AS
+              THE LOCAL RMP DOCTOR CHARGES THE PATIENTS IN THE VILLAGE
+            </li>
           </ul>
         </div>
         <div className="list">

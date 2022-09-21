@@ -28,12 +28,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 .nav-links a {
   font-weight: bold;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 .top-wrap {
@@ -203,7 +203,8 @@
 }
 
 .slide-h1 {
-  font-size: 45px !important;
+  font-size: 34px !important;
+  margin-bottom: 10px;
 }
 .slide-box h3 {
   font-size: 25px;
@@ -323,7 +324,7 @@
   gap: 50px;
   margin-top: 20px;
 }
-.card-grid h2,
+.phase2 h2,
 .list-box {
   width: 100%;
   border-radius: 20px;
@@ -338,8 +339,9 @@
   font-weight: 500;
   position: relative;
 }
-.card-grid h2 {
+.phase2 h2 {
   height: 200px;
+  box-shadow: none;
 }
 .down:after,
 .mob-down:after {
@@ -407,6 +409,56 @@
   margin-bottom: 10px;
   font-size: 23px !important;
 }
+.left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.desk-link {
+  display: flex;
+}
+.mob-link {
+  display: none;
+}
+.mob-link svg,
+.left-nav svg {
+  display: none;
+}
+.mob-link .donate-a {
+  display: none;
+}
+@media screen and (max-width: 1240px) {
+  .navbar {
+    row-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+  .left-nav {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+  .right-nav {
+    gap: 0px;
+    justify-content: flex-start;
+  }
+  .right-nav button {
+    width: 120px;
+  }
+  .nav-links {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .desk-link {
+    display: none;
+  }
+  .mob-link {
+    display: flex;
+  }
+}
 @media screen and (max-width: 1107px) {
   .right-top h1 {
     font-size: 20px;
@@ -442,14 +494,69 @@
     left: 50%;
     transform: translateX(-50%);
   }
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-  .card-grid h2 {
+
+  .phase2 h2 {
     width: 100%;
   }
   .mob-down:after {
     display: block;
+  }
+}
+@media screen and (max-width: 808px) {
+  .mob-link {
+    position: fixed;
+    left: 0;
+    max-width: 400px;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+    max-height: 100vh;
+    overflow-y: auto;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 30px;
+    gap: 30px;
+    left: -700px;
+    transition: all 0.5s ease-in-out;
+  }
+  .overlay2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    z-index: 99;
+    display: none;
+  }
+  .show-overlay {
+    display: block;
+  }
+  .open-nav {
+    left: 0;
+  }
+  .mob-link a {
+    color: white;
+    font-size: 18px;
+  }
+  .mob-link svg {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .left-nav svg {
+    display: block;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 967px) {
@@ -468,48 +575,45 @@
     width: 100%;
   }
 }
+
 @media screen and (max-width: 750px) {
-  .navbar {
-    row-gap: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    margin-bottom: 40px;
-    justify-content: space-between;
-  }
   .logo-box {
     justify-self: flex-start;
   }
-  .right-nav {
-    gap: 0px;
-  }
-  .right-nav button {
-    width: 120px;
-  }
-  .nav-links {
-    grid-column: 1/3;
-    grid-row: 2/3;
+  .slide-h1 {
+    font-size: 25px !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 450px) {
   .quote h4 {
     font-size: 20px;
   }
+  .slide-h1 {
+    font-size: 20px !important;
+    text-align: center;
+  }
   .logo-box img {
     width: 120px;
+  }
+  .left-nav {
+    gap: 5px;
   }
   .objectives {
     margin-top: 50px;
   }
-  .nav-links {
-    gap: 15px;
-  }
-  .nav-links a {
-    font-size: 16px;
-  }
   .right-nav button {
     font-size: 12px;
     width: 95px;
+  }
+  .right-nav button {
+    display: none;
+  }
+  .mob-link .donate-a {
+    display: block;
+  }
+  .mob-link {
+    max-width: 100%;
   }
 }
 .reports {
@@ -659,7 +763,7 @@ header {
 .card img {
   width: 100%;
   height: 250px;
-  object-fit: fill;
+  object-fit: contain;
 }
 .text-card {
   display: flex;
