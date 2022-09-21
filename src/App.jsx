@@ -110,7 +110,7 @@ function App() {
                 perPage: 1,
                 perMove: 1,
                 autoplay: true,
-                interval: 2000,
+                interval: 5000,
                 pauseOnHover: false,
                 drag: true,
                 pauseOnFocus: false,
@@ -223,7 +223,7 @@ function App() {
             {" "}
             <img src="./Assets/progress.jpg" alt="" />
             <h1>Progress so Far:</h1>
-            <p>Screened number of villages:46 </p>
+            <p>Screened number of villages:51 </p>
             <p>Total Patients screened:{">"}6000</p>
           </div>
         </div>
@@ -350,7 +350,7 @@ function App() {
               gap: "30px",
               perMove: 1,
               autoplay: true,
-              interval: 2000,
+              interval: 5000,
               pauseOnHover: false,
               drag: true,
               pauseOnFocus: false,
@@ -365,7 +365,7 @@ function App() {
             }}
           >
             <SplideSlide>
-              <h2>SCREENING DONE WITH LAB TESTS IN VILLAGE</h2>
+              <h2>SCREENING DONE WITH LAB TESTS IN PHASE 1</h2>
             </SplideSlide>
             <SplideSlide>
               <h2>

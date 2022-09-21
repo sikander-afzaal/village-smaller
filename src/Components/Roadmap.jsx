@@ -16,7 +16,7 @@ function Roadmap() {
           perPage: 3,
           perMove: 1,
           autoplay: true,
-          interval: 2000,
+          interval: 5000,
           pauseOnHover: false,
           drag: true,
           pauseOnFocus: false,
