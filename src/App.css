@@ -151,6 +151,10 @@
   text-align: center;
   color: white;
 }
+.right-nav button {
+  width: 120px;
+  font-size: 13px;
+}
 .row img {
   width: 100px;
   height: 100%;
@@ -419,9 +423,13 @@
 }
 .left-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  width: 100%;
+}
+.left-nav .desk-link {
+  width: 100%;
 }
 .desk-link {
   display: flex;

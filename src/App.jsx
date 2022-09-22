@@ -26,11 +26,11 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <h1 className="slide-h1">AAPI ADOPT A VILLAGE PROJECT</h1>
+        <div
+          onClick={() => setHeader(false)}
+          className={`overlay2 ${header ? "show-overlay" : ""}`}
+        ></div>
         <div className="navbar">
-          <div
-            onClick={() => setHeader(false)}
-            className={`overlay2 ${header ? "show-overlay" : ""}`}
-          ></div>
           <div className="left-nav">
             <div className="logo-box">
               <img src="./Assets/logo.png" alt="" />
