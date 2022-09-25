@@ -621,4 +621,19 @@ export const data = {
       ],
     },
   ],
+  himachal: [
+    {
+      name: "Garh",
+      pdf: "/Assets/himachal/garh/pdf.pdf",
+      profileImg: "/Assets/karnataka/kesaramadu/profile.webp",
+      profileName: "Anoop & Amita Mamtani",
+      images: [
+        "./Assets/himachal/garh/img (1).webp",
+        "./Assets/himachal/garh/img (2).webp",
+        "./Assets/himachal/garh/img (3).webp",
+        "./Assets/himachal/garh/img (4).webp",
+        "./Assets/himachal/garh/img (5).webp",
+      ],
+    },
+  ],
 };
