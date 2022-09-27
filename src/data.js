@@ -635,5 +635,18 @@ export const data = {
         "./Assets/himachal/garh/img (5).webp",
       ],
     },
+    {
+      name: "Atiala Dai",
+      pdf: "/Assets/himachal/garh/pdf.pdf",
+      profileImg: "/Assets/karnataka/kesaramadu/profile.webp",
+      profileName: "Anoop & Amita Mamtani",
+      images: [
+        "./Assets/himachal/atiala_dai/img (1).webp",
+        "./Assets/himachal/atiala_dai/img (2).webp",
+        "./Assets/himachal/atiala_dai/img (3).webp",
+        "./Assets/himachal/atiala_dai/img (4).webp",
+        "./Assets/himachal/atiala_dai/img (5).webp",
+      ],
+    },
   ],
 };
