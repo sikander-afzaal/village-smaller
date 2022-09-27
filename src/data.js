@@ -637,7 +637,7 @@ export const data = {
     },
     {
       name: "Atiala Dai",
-      pdf: "/Assets/himachal/garh/pdf.pdf",
+      pdf: "/Assets/himachal/atiala_dai/pdf.pdf",
       profileImg: "/Assets/karnataka/kesaramadu/profile.webp",
       profileName: "Anoop & Amita Mamtani",
       images: [
