@@ -648,5 +648,33 @@ export const data = {
         "./Assets/himachal/atiala_dai/img (5).webp",
       ],
     },
+    {
+      name: "Kachcheri Kangra District",
+      pdf: "/Assets/himachal/kachcheri/pdf.pdf",
+      profileImg: "/Assets/himachal/kachcheri/profile.webp",
+      profileName: "Dr. Yogesh Shah",
+      images: [
+        "./Assets/himachal/kachcheri/img (1).webp",
+        "./Assets/himachal/kachcheri/img (2).webp",
+        "./Assets/himachal/kachcheri/img (3).webp",
+        "./Assets/himachal/kachcheri/img (4).webp",
+        "./Assets/himachal/kachcheri/img (5).webp",
+      ],
+    },
+    {
+      name: "Sudher",
+      pdf: "/Assets/himachal/sudher/pdf.pdf",
+      profileImg: "/Assets/himachal/sudher/profile.webp",
+      profileName:
+        "Dr. Anupama Gotimukula & Dr. Ravi Kolli & Dr. Satheesh Kathula",
+      images: [
+        "./Assets/himachal/sudher/img (1).webp",
+        "./Assets/himachal/sudher/img (2).webp",
+        "./Assets/himachal/sudher/img (3).webp",
+        "./Assets/himachal/sudher/img (4).webp",
+        "./Assets/himachal/sudher/img (5).webp",
+        "./Assets/himachal/sudher/img (6).webp",
+      ],
+    },
   ],
 };
