@@ -295,6 +295,22 @@ function App() {
             >
               himachal pradesh
             </button>
+            <button
+              onClick={() => {
+                setState("jharkhand");
+              }}
+              className="dark-blue "
+            >
+              Jharkhand
+            </button>
+            <button
+              onClick={() => {
+                setState("bihar");
+              }}
+              className="dark-yellow "
+            >
+              Bihar
+            </button>
           </div>
           <div className="cards">
             {state === "telangana" &&
@@ -343,6 +359,28 @@ function App() {
               })}
             {state === "himachal" &&
               data.himachal.map((elem, idx) => {
+                return (
+                  <Card
+                    key={"idx" + idx + elem.name}
+                    {...elem}
+                    setGallery={setGallery}
+                    setImages={setImages}
+                  />
+                );
+              })}
+            {state === "jharkhand" &&
+              data.jharkhand.map((elem, idx) => {
+                return (
+                  <Card
+                    key={"idx" + idx + elem.name}
+                    {...elem}
+                    setGallery={setGallery}
+                    setImages={setImages}
+                  />
+                );
+              })}
+            {state === "bihar" &&
+              data.bihar.map((elem, idx) => {
                 return (
                   <Card
                     key={"idx" + idx + elem.name}

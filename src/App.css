@@ -728,9 +728,8 @@ header {
   width: 100%;
 }
 .btn-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   width: 100%;
 }
@@ -939,7 +938,6 @@ header {
 }
 @media screen and (max-width: 835px) {
   .btn-div {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .header {
