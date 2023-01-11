@@ -587,7 +587,7 @@ export const data = {
   karnataka: [
     {
       name: "Guluru2",
-      pdf: "/Assets/telenaga/Guluru2/pdf.pdf",
+      pdf: "/Assets/karnatka/Guluru2/pdf.pdf",
       profileImg: "/Assets/karnataka/Guluru2/profile.webp",
       profileName: "Dr. Bhaskar Purushottam",
       images: [
@@ -612,7 +612,7 @@ export const data = {
     },
     {
       name: "Guluru",
-      pdf: "/Assets/telenaga/Guluru/pdf.pdf",
+      pdf: "/Assets/karnataka/Guluru/pdf.pdf",
       profileImg: "/Assets/karnataka/Guluru/profile.webp",
       profileName: "Dr. Anuradha Maan",
       images: [
