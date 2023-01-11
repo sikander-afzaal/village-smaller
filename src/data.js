@@ -20,6 +20,9 @@ export const data = {
       profileImg: "/Assets/telenaga/madipally/profile.webp",
       profileName: "Dr Nerella Damodhar",
       images: [
+        "./Assets/telenaga/madipally/img (6).webp",
+        "./Assets/telenaga/madipally/img (7).webp",
+        "./Assets/telenaga/madipally/img (8).webp",
         "./Assets/telenaga/madipally/img (1).webp",
         "./Assets/telenaga/madipally/img (2).webp",
         "./Assets/telenaga/madipally/img (3).webp",
