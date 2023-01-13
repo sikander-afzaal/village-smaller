@@ -202,7 +202,7 @@ export const data = {
       name: "Mittapally",
       pdf: "/Assets/telenaga/Mittapally/pdf.pdf",
       profileImg: "/Assets/telenaga/Mittapally/profile.webp",
-      profileName: "Dr. Daram Hanumanth Reddy",
+      profileName: "Dr.Daram Hanumantha Reddy",
       images: [
         "./Assets/telenaga/Mittapally/img (1).webp",
         "./Assets/telenaga/Mittapally/img (2).webp",
@@ -312,7 +312,6 @@ export const data = {
         "./Assets/gujrat/Ambaliyara/img (2).webp",
         "./Assets/gujrat/Ambaliyara/img (3).webp",
         "./Assets/gujrat/Ambaliyara/img (4).webp",
-        "./Assets/gujrat/Ambaliyara/img (5).webp",
       ],
     },
     {
@@ -352,13 +351,6 @@ export const data = {
         "./Assets/gujrat/Dadiyapura/img (3).webp",
         "./Assets/gujrat/Dadiyapura/img (4).webp",
         "./Assets/gujrat/Dadiyapura/img (5).webp",
-        "./Assets/gujrat/Dadiyapura/img (6).webp",
-        "./Assets/gujrat/Dadiyapura/img (7).webp",
-        "./Assets/gujrat/Dadiyapura/img (8).webp",
-        "./Assets/gujrat/Dadiyapura/img (9).webp",
-        "./Assets/gujrat/Dadiyapura/img (10).webp",
-        "./Assets/gujrat/Dadiyapura/img (11).webp",
-        "./Assets/gujrat/Dadiyapura/img (12).webp",
       ],
     },
     {
@@ -443,7 +435,7 @@ export const data = {
     },
     {
       name: "Kundalapally",
-      pdf: "./Assets/andhra/Kundalapally/img (19).webp",
+      pdf: "./Assets/andhra/Kundalapally/pdf.pdf",
       profileImg: "/Assets/andhra/Kundalapally/profile.webp",
       profileName: "Dr. Radhika Akella",
       images: [
@@ -580,7 +572,6 @@ export const data = {
         "./Assets/andhra/gudala_gondi/img (2).webp",
         "./Assets/andhra/gudala_gondi/img (3).webp",
         "./Assets/andhra/gudala_gondi/img (4).webp",
-        "./Assets/andhra/gudala_gondi/img (5).webp",
       ],
     },
   ],
@@ -599,7 +590,7 @@ export const data = {
     },
     {
       name: "Humchadakatte",
-      pdf: "/Assets/telenaga/humchadakatte/pdf.pdf",
+      pdf: "/Assets/karnataka/humchadakatte/pdf.pdf",
       profileImg: "/Assets/karnataka/humchadakatte/profile.webp",
       profileName: "Dr. Manjunath Shikaripur",
       images: [
@@ -678,7 +669,7 @@ export const data = {
       ],
     },
     {
-      name: "Kachcheri Kangra District",
+      name: "Kachcheri",
       pdf: "/Assets/himachal/kachcheri/pdf.pdf",
       profileImg: "/Assets/himachal/kachcheri/profile.webp",
       profileName: "Dr. Yogesh Shah",
