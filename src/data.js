@@ -342,7 +342,7 @@ export const data = {
     },
     {
       name: "Dadiyapura",
-      pdf: "/Assets/telenaga/buddaram/pdf.pdf",
+      pdf: "/Assets/gujrat/Dadiyapura/pdf.pdf",
       profileImg: "/Assets/karnataka/kesaramadu/profile.webp",
       profileName: "Anoop & Amita Mamtani",
       images: [
@@ -487,7 +487,7 @@ export const data = {
     },
     {
       name: "Obulareddypally Thanda",
-      pdf: "./Assets/andhra/Obulareddypally/pdf.pdf",
+      pdf: "./Assets/andhra/Obulareddypally Thanda/pdf.pdf",
       profileImg: "/Assets/andhra/Obulareddypally/profile.webp",
       profileName: "Dr. Krishna Reddy Aruna Reddy",
       images: [
