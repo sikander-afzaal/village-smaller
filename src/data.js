@@ -460,7 +460,7 @@ export const data = {
       ],
     },
     {
-      name: "Ventrapragada",
+      name: "Sivapuram",
       pdf: "./Assets/andhra/Ventrapragada/pdf.pdf",
       profileImg: "/Assets/andhra/Ventrapragada/profile.webp",
       profileName: "Dr. Movva",
