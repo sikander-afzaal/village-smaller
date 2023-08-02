@@ -1,18 +1,14 @@
 import "./App.css";
 import Adopt from "./Components/Adopt";
 import Roadmap from "./Components/Roadmap";
-import Card from "./Components/Card";
-import { data } from "./data";
 import { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import Modal from "./Components/Modal";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import Phase1 from "./Components/Phase1";
+import Phase2 from "./Components/Phase2";
 function App() {
-  const [gallery, setGallery] = useState(false);
-  const [images, setImages] = useState([]);
-  const [state, setState] = useState("");
   const [header, setHeader] = useState(false);
   useEffect(() => {
     if (header) {
@@ -251,147 +247,8 @@ function App() {
         </div>
         <Adopt />
         <Roadmap />
-        <div id="results" className="reports">
-          <h1 className="title">PHASE 1 RESULTS AND REPORTS</h1>
-          {gallery && <Modal setHeader={setGallery} images={images} />}
-          <div className="btn-div">
-            <button
-              onClick={() => {
-                setState("telangana");
-              }}
-              className="dark-green"
-            >
-              Telangana
-            </button>
-            <button
-              onClick={() => {
-                setState("gujrat");
-              }}
-              className="dark-blue"
-            >
-              Gujarat
-            </button>
-            <button
-              onClick={() => {
-                setState("andhrapradesh");
-              }}
-              className="dark-yellow"
-            >
-              andhrapradesh
-            </button>
-            <button
-              onClick={() => {
-                setState("karnataka");
-              }}
-              className="dark-brown"
-            >
-              karnataka
-            </button>
-            <button
-              onClick={() => {
-                setState("himachal");
-              }}
-              className="light-yellow "
-            >
-              himachal pradesh
-            </button>
-            <button
-              onClick={() => {
-                setState("jharkhand");
-              }}
-              className="dark-blue "
-            >
-              Jharkhand
-            </button>
-            <button
-              onClick={() => {
-                setState("bihar");
-              }}
-              className="dark-yellow "
-            >
-              Bihar
-            </button>
-          </div>
-          <div className="cards">
-            {state === "telangana" &&
-              data.telangana.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "gujrat" &&
-              data.gujrat.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "andhrapradesh" &&
-              data.andhrapradesh.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "karnataka" &&
-              data.karnataka.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "himachal" &&
-              data.himachal.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "jharkhand" &&
-              data.jharkhand.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-            {state === "bihar" &&
-              data.bihar.map((elem, idx) => {
-                return (
-                  <Card
-                    key={"idx" + idx + elem.name}
-                    {...elem}
-                    setGallery={setGallery}
-                    setImages={setImages}
-                  />
-                );
-              })}
-          </div>
-        </div>
+        <Phase1 />
+        <Phase2 />
         <div id="phase2" className="phase2">
           <h1 className="title">Phase 2 of the Project</h1>{" "}
           <p style={{ fontWeight: "bold" }}>
