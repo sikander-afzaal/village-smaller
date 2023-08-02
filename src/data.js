@@ -493,15 +493,15 @@ export const data = {
     },
     {
       name: "Sivapuram",
-      pdf: "./Assets/andhra/ventrapragada/pdf.pdf",
-      profileImg: "/Assets/andhra/ventrapragada/profile.webp",
+      pdf: "./Assets/andhra/Ventrapragada/pdf.pdf",
+      profileImg: "/Assets/andhra/Ventrapragada/profile.webp",
       profileName: "Dr. Movva",
       images: [
-        "./Assets/andhra/ventrapragada/img (1).webp",
-        "./Assets/andhra/ventrapragada/img (2).webp",
-        "./Assets/andhra/ventrapragada/img (3).webp",
-        "./Assets/andhra/ventrapragada/img (4).webp",
-        "./Assets/andhra/ventrapragada/img (5).webp",
+        "./Assets/andhra/Ventrapragada/img (1).webp",
+        "./Assets/andhra/Ventrapragada/img (2).webp",
+        "./Assets/andhra/Ventrapragada/img (3).webp",
+        "./Assets/andhra/Ventrapragada/img (4).webp",
+        "./Assets/andhra/Ventrapragada/img (5).webp",
       ],
     },
     {
